@@ -5,7 +5,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   </head>
   <body class="container">
-    <div>
     <!-- nav -->
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
       <ul class="navbar-nav">
@@ -14,39 +13,176 @@
         </li>
       </ul>
     </nav>
-    <!-- project card -->
-    <div class="card" style="width:300px">
-      <img class="card-img-top" src="" alt="Card image" style="width:100%">
-      <div class="card-body">
-        <h4 class="card-title">employees</h4>
-        <p class="card-text">jsp를 이용한 employees 프로젝트</p>
-        <a href="#" class="btn btn-primary stretched-link">employees</a>
+    <!-- Portfolio Section -->
+    <section id="project" class="section-padding">
+      <!-- Container Starts -->
+      <div class="container">        
+        <h2 class="section-title wow flipInX" data-wow-delay="0.1s">Project</h2>
+        <div class="row">          
+          <div class="col-md-12">
+            <!-- Portfolio Controller/Buttons -->
+            <div class="controls text-center">
+              <a class="filter active btn btn-common" data-filter="all">
+                All 
+              </a>
+              <a class="filter btn btn-common" data-filter=".design">
+                MODEL1 
+              </a>
+              <a class="filter btn btn-common" data-filter=".development">
+                MODEL2
+              </a>
+              <a class="filter btn btn-common" data-filter=".print">
+                SPRING
+              </a>
+            </div>
+            <!-- Portfolio Controller/Buttons Ends-->
+          </div>
+
+          <!-- Portfolio Recent Projects -->
+          <div id="portfolio" class="row wow fadeInDown" data-wow-delay="0.1s">
+            <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 mix design">
+              <div class="portfolio-item">
+                <div class="shot-item">
+                  <img src="employees 이미지파일" alt="" />  
+                  <div class="overlay">
+                    <div class="icons">
+                      <a class="link" href="employees 주소">
+                        <i class="icon-link"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- 소개 -->
+                <div style="margin-right: 15px;">
+	                <div class="text-center" style="padding-right: 15px;">
+	                	<strong>EMPLOYEES 프로젝트</strong>
+	                </div>
+	                <div class="text-center" style="padding-right: 15px;">
+                    employees 프로젝트 내용 jsp를 이용한
+	                </div>
+	                <div class="row" style="padding-right: 15px;">
+	                	<div class="col-sm-6 text-right">#JAVA</div>
+	                	<div class="col-sm-6 text-left">#JSP</div>
+	                </div>
+	                <div class="row" style="padding-right: 15px;">
+	                	<div class="col-sm-6 text-right">#HTML</div>
+	                	<div class="col-sm-6 text-left">#Bootstrap</div>
+	                </div>          
+                </div>             
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 mix development">
+              <div class="portfolio-item">
+                <div class="shot-item">
+                  <img src="쇼핑몰 이미지파일" alt=""/>
+                  <div class="overlay">
+                    <div class="icons">
+                      <a class="link" href="쇼핑몰 주소">
+                        <i class="icon-link"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- 소개 -->
+                <div style="margin-right: 15px;">
+	                <div class="text-center" style="padding-right: 15px;">
+	                	<strong>쇼핑몰 프로젝트</strong>
+	                </div>
+	                <div class="text-center" style="padding-right: 15px;">
+	               		쇼핑몰 프로젝트 내용 model1 방식을 이용
+	                </div>
+	                <div class="row" style="padding-right: 15px;">
+	                	<div class="col-sm-6 text-right">#JAVA</div>
+	                	<div class="col-sm-6 text-left">#JSTL</div>
+	                </div>
+	                <div class="row" style="padding-right: 15px;">
+	                	<div class="col-sm-6 text-right">#HTML</div>
+	                	<div class="col-sm-6 text-left">#CSS</div>
+	                </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 mix print">
+              <div class="portfolio-item">
+                <div class="shot-item">
+                  <img src="sakila 이미지파일" alt=""/> 
+                  <div class="overlay">
+                    <div class="icons">
+                      <a class="link" href="sakila 주소">
+                        <i class="icon-link"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- 소개 -->
+                <div>
+                  <div class="text-center" style="padding-right: 15px;">
+                    <strong>sakila 프로젝트</strong>
+                  </div>
+	                <div class="text-center" style="padding-right: 15px;">
+	                sakila 프로젝트 내용 model2 방식을 이용
+	                </div>            
+	                <div class="row" style="padding-right: 15px;">
+	                	<div class="col-sm-6 text-right">#JAVA</div>
+	                	<div class="col-sm-6 text-left">#SPRING BOOT</div>
+	                </div>
+	                <div class="row" style="padding-right: 15px;">
+	                	<div class="col-sm-6 text-right">#HTML</div>
+	                	<div class="col-sm-6">#JQuery</div>
+	                </div>
+                </div>              
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 mix print">
+              <div class="portfolio-item">
+                <div class="shot-item">
+                  <img src="sakila 프로젝트" alt="" /> 
+                  <div class="overlay">
+                    <div class="icons">
+                      <a class="link" href="sakila 링크">
+                        <i class="icon-link"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- 소개 -->
+                <div>
+                  <div class="text-center" style="padding-right: 15px;">
+                    <strong>cashbook 프로젝트</strong>
+                  </div>
+	                <div class="text-center" style="padding-right: 15px;">
+	                cashbook 프로젝트 내용 MVC, springboot를 이용
+	                </div>
+	                <div class="row" style="padding-right: 15px;">
+	                	<div class="col-sm-6 text-right">#JAVA</div>
+	                	<div class="col-sm-6 text-left">#SPRING BOOT</div>
+	                </div>
+	                <div class="row" style="padding-right: 15px;">
+	                	<div class="col-sm-6 text-right">#HTML</div>
+	                	<div class="col-sm-6">#JQuery</div>
+	                </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 mix print">
+              <div class="portfolio-item">
+                <div class="shot-item">
+                  <img src="cashbook 프로젝트" alt="" />
+                  <div class="overlay">
+                    <div class="icons">
+                      <a class="link" href="cashbook 링크">
+                        <i class="icon-link"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="card" style="width:300px">
-      <img class="card-img-top" src="" alt="Card image" style="width:100%">
-      <div class="card-body">
-        <h4 class="card-title">mall</h4>
-        <p class="card-text">모델1 방식을 이용한 mall 프로젝트</p>
-        <a href="#" class="btn btn-primary stretched-link">mall</a>
-      </div>
-    </div>
-    <div class="card" style="width:300px">
-      <img class="card-img-top" src="" alt="Card image" style="width:100%">
-      <div class="card-body">
-        <h4 class="card-title">sakila</h4>
-        <p class="card-text">모델2 방식을 이용한 sakila 프로젝트</p>
-        <a href="#" class="btn btn-primary stretched-link">sakila</a>
-      </div>
-    </div>
-    <div class="card" style="width:300px">
-      <img class="card-img-top" src="" alt="Card image" style="width:100%">
-      <div class="card-body">
-        <h4 class="card-title">cashbook</h4>
-        <p class="card-text">MVC, springboot를 이용한 cashbook 프로젝트</p>
-        <a href="#" class="btn btn-primary stretched-link">cashbook</a>
-      </div>
-    </div>
-    </div>
+      <!-- Container Ends -->
+    </section>
+    <!-- Portfolio Section Ends --> 
   </body>
 </html>
