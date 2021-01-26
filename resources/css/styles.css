@@ -10247,7 +10247,7 @@ header.masthead .masthead-heading {
   display: flex;
   height: 100vh;
   white-space: nowrap;
-  background: #d5ffdc;
+  background: #f8f9fa;
   -webkit-align-items: center;
   align-items: center;
   -webkit-justify-content: center;
@@ -10255,7 +10255,7 @@ header.masthead .masthead-heading {
 }
 
 .career-timeline h1 {
-  color: #f4f3ea;
+  color: #000000;
   margin: 30px;
 }
 .career-timeline ol {
@@ -10270,9 +10270,12 @@ header.masthead .masthead-heading {
   position: relative;
   display: inline-block;
   list-style-type: none;
-  width: 250px;
+  width: 200px;
   height: 3px;
   background: #fff;
+}
+.career-timeline ol li:first-child {
+  width: 100px;
 }
 .career-timeline ol li:last-child {
   width: 100%;
@@ -10300,7 +10303,7 @@ header.masthead .masthead-heading {
   font-size: 1rem;
   white-space: normal;
   color: black;
-  background: white;
+  background: rgb(240, 255, 244);
 }
 
 .career-timeline ol li div::before {
