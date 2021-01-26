@@ -10254,7 +10254,7 @@ header.masthead .masthead-heading {
   justify-content: center;
 }
 
-.career-timeline h1 {
+.career-timeline h3 {
   color: #000000;
   margin: 30px;
 }
@@ -10275,10 +10275,10 @@ header.masthead .masthead-heading {
   background: #fff;
 }
 .career-timeline ol li:first-child {
-  width: 100px;
+  width: 50px;
 }
 .career-timeline ol li:last-child {
-  width: 100%;
+  width: 450px;
 }
 .career-timeline ol li:not(:first-child) {
   margin-left: 14px;
@@ -10293,7 +10293,7 @@ header.masthead .masthead-heading {
   height: 12px;
   transform: translateY(-50%);
   border-radius: 50%;
-  background: #F45B69;
+  background: #d5e3ff;
 }
 .career-timeline ol li div {
   position: absolute;
@@ -10303,7 +10303,7 @@ header.masthead .masthead-heading {
   font-size: 1rem;
   white-space: normal;
   color: black;
-  background: rgb(240, 255, 244);
+  background: #ffffff;
 }
 
 .career-timeline ol li div::before {
