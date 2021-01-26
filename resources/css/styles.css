@@ -10247,7 +10247,7 @@ header.masthead .masthead-heading {
   display: flex;
   height: 100vh;
   white-space: nowrap;
-  background: #f8f9fa;
+  background: #d5ffdc;
   -webkit-align-items: center;
   align-items: center;
   -webkit-justify-content: center;
@@ -10270,12 +10270,12 @@ header.masthead .masthead-heading {
   position: relative;
   display: inline-block;
   list-style-type: none;
-  width: 160px;
+  width: 250px;
   height: 3px;
   background: #fff;
 }
 .career-timeline ol li:last-child {
-  width: 280px;
+  width: 100%;
 }
 .career-timeline ol li:not(:first-child) {
   margin-left: 14px;
