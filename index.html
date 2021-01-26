@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>0464</title>
+        <title>조광현 포트폴리오</title>
         <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
         <!-- Font Awesome icons -->
         <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
@@ -25,9 +25,9 @@
             <div class="container">
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ml-auto">
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About Me</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skill">Skill</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#aducation">Aducation</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
                     </ul>
                 </div>
@@ -38,10 +38,43 @@
             <div class="container">
                 <div class="masthead-subheading text-white">Welcome</div>
                 <div class="masthead-heading text-uppercase text-white">조광현 포트폴리오</div>
-                <h4 class="text-white">누구나 편리하게 사용하는 웹을 만들고 싶은 신입개발자 조광현입니다.</h4>
-                <a class="btn btn-outline-dark btn-xl js-scroll-trigger" href="#skill">Tell Me More</a>
+                <h4 class="text-white">누구나 편리하게 사용하는 웹을 만들고 싶은 신입개발자 조광현입니다.</h4><br>
+                <a class="btn btn-outline-dark btn-xl js-scroll-trigger mt-4" href="#skill">Tell Me More</a>
             </div>
         </header>
+        <!-- About me -->
+        <section class="page-section" id="about">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">About Me</h2><br>
+                </div>
+                <div class="row text-center">
+                    <div class="col-8">
+                        <table class="table table-bordered">
+                            <tr>
+                                <td><h4 class="my-3">Name</h4></td>
+                                <td><p class="text-muted">조광현</p></td>
+                            </tr>
+                            <tr>
+                                <td><h4 class="my-3">Birth</h4></td>
+                                <td><p class="text-muted">1996.08.12</p></td>
+                            </tr>
+                            <tr>
+                                <td><h4 class="my-3">Email</h4></td>
+                                <td><p class="text-muted">jkh10118@naver.com</p></td>
+                            </tr>
+                            <tr>
+                                <td><h4 class="my-3">Phone</h4></td>
+                                <td><p class="text-muted">010-5773-3811</p></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid" src="/resources/assets/img/portfolio/jkhpic.jpg">
+                    </div>
+                </div>
+            </div>
+        </section>
         <!-- Skill -->
         <section class="page-section" id="skill">
             <div class="container">
@@ -127,15 +160,19 @@
                 <div class="row">
                     <div class="col-lg-6 col-sm-6 mb-4">
                         <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-1x"></i></div>
-                                </div>
+                            <div class="portfolio-caption">
                                 <img class="img-fluid" src="/resources/assets/img/portfolio/cash.png">
-                            </a>
+                            </div>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Cashbook</div>
                                 <div class="portfolio-caption-subheading text-muted">Spring boot, Model2</div>
+                                <ul class="list-inline">
+                                <li>Spring Boot를 이용한 가계부 관리 프로젝트</li>
+                                <li>Spring boot, My batis, MVC패턴중 Model2를 사용한 가계부 프로젝트입니다. 프레임워크와 API 사용을 통해 얼마나 편리하게 개발할 수 있는지 확인 할수 있었습니다.</li>
+                                <li>Date: 2020.11 - 2020.12</li>
+                                <li>GitHub 소스 코드: <a href="https://github.com/0464/cash" target="_blank">https://github.com/0464/cash</a></li>
+                                <li>AWS 배포 경로: <a href="http://54.180.138.45/cash/" target="_blank">http://54.180.138.45/cash/</a></li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -182,68 +219,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <!-- Aducation -->
-        <section class="page-section" id="aducation">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Aducation / Certificate</h2><br>
-                </div>
-                <ul class="timeline">
-                    <li class="timeline-inverted">
-                        <div class="timeline-image"></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <br><h4>2007</h4>
-                                <h4 class="subheading">ITQ 정보기술자격</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">한글파워포인트 A등급<br>아래한글 B등급</p></div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="timeline-image"></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <br><h4>2015</h4>
-                                <h4 class="subheading">천안업성고등학교</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">이과 졸업</p></div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image"></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <br><h4>2015</h4>
-                                <h4 class="subheading">운전면허</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">1종 보통 취득</p></div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="timeline-image"></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <br><h4>2021</h4>
-                                <h4 class="subheading">두원공과대학교</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">컴퓨터공학과 졸업</p></div>
-                        </div>
-                    </li>
-                    <div class="timeline-image"></div>
-                    <li class="timeline-panel">
-                        <div class="timeline-image"></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <br><h4>2021</h4>
-                                <h4 class="subheading">구디아카데미</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">오픈 플랫폼 핀테크 개발자 양성 과정 수료</p></div>
-                        </div>
-                    </li>
-                    
-                </ul>
             </div>
         </section>
         <!-- Contact-->
@@ -295,12 +270,7 @@
                                     <h2 class="text-uppercase">Cashbook</h2>
                                     <p class="item-intro text-muted">Spring boot, Model2</p>
                                     <img class="img-fluid d-block mx-auto" src="/resources/assets/img/portfolio/cash.png" alt="" />
-                                    <p>Spring boot, My batis, MVC패턴중 Model2를 사용한 가계부 프로젝트입니다. 프레임워크와 API 사용을 통해 얼마나 편리하게 개발할 수 있는지 확인 할수 있었습니다.</p>
-                                    <ul class="list-inline">
-                                        <li>Date: 2020.11 - 2020.12</li>
-                                        <li>GitHub 소스 코드: <a href="https://github.com/0464/cash" target="_blank">https://github.com/0464/cash</a></li>
-                                        <li>AWS 배포 경로: <a href="http://54.180.138.45/cash/" target="_blank">http://54.180.138.45/cash/</a></li>
-                                    </ul>
+                                    
                                     <button class="btn btn-outline-dark text-dark" data-dismiss="modal" type="button">
                                         <i class="fas fa-times mr-1"></i>
                                         Close Project
@@ -324,6 +294,7 @@
                                     <h2 class="text-uppercase">Shopping mall</h2>
                                     <p class="item-intro text-muted">Model1</p>
                                     <img class="img-fluid d-block mx-auto" src="/resources/assets/img/portfolio/shop.png" alt="" />
+                                    <p>Model 1 기법으로 만든 쇼핑몰 프로젝트</p>
                                     <p>MVC패턴중 Model1 방식의 쇼핑몰 프로젝트입니다. MVC패턴을 이용한 첫 프로젝트이며 Model1 방식으로 Controller, Model, View를 나누어 작업 할 수 있어서 개발하기 편했습니다. 사용자와 관리자가 다른 사이트를 이용할 수 있도록 두개의 프로젝트로 나누었습니다.</p>
                                     <ul class="list-inline">
                                         <li>Date: 2020.10 - 2020.11</li>
@@ -358,6 +329,7 @@
                                     <h2 class="text-uppercase">Sakila</h2>
                                     <p class="item-intro text-muted">Model2</p>
                                     <img class="img-fluid d-block mx-auto" src="/resources/assets/img/portfolio/sakila.png" alt="" />
+                                    <p>Model 2 기법으로 만든 비디오 대여점 관리 프로젝트</p>
                                     <p>MVC패턴중 Model2 방식의 비디오 대여점 프로젝트입니다. Model1의 JSP에서 담당하던 요청을 Model2에서는 Servlet이 처리하면서 복잡하고 중복되던 코딩이 전보다 깔끔해졌습니다.</p>
                                     <ul class="list-inline">
                                         <li>Date: 2020.09 - 2020.10</li>
@@ -387,7 +359,8 @@
                                     <h2 class="text-uppercase">Employees</h2>
                                     <p class="item-intro text-muted">JSP</p>
                                     <img class="img-fluid d-block mx-auto" src="/resources/assets/img/portfolio/employees.png" alt="" />
-                                    <p>JSP를 이용한 게시판 프로젝트입니다. JSP를 이용해 만든 미니 프로젝트입니다. JSP만으로도 웹페이지를 만들수 있다는 것을 경험했습니다.</p>
+                                    <p>JSP만으로 구성한 직원 조회 프로젝트</p>
+                                    <p>JSP를 이용한 게시판 구성한 직원 조회 프로젝트입니다. JSP만으로도 웹페이지를 만들수 있다는 것을 경험했습니다.</p>
                                     <ul class="list-inline">
                                         <li>Date: 2020.08 - 2020.09</li>
                                         <li>GitHub 소스 코드: <a href="https://github.com/0464/employees" target="_blank">https://github.com/0464/employees</a></li>
